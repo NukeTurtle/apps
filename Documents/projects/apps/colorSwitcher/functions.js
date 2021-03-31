@@ -1,7 +1,7 @@
-const colorList = ["#AADCFF", "#FFD677", "#E8E8E8", "#F2FBA4", "#FFAAF9"];
+const colorList = ["#AADCFF", "#FFD677", "#E8E8E8", "#F2FBA4", "#FFAAF9", "#FF6666", "#FFFF99"];
 
 function colorChanger() {
-    const i = Math.floor(Math.random() * 5);
+    const i = Math.floor(Math.random() * colorList.length);
     const currentColor = colorList[i];
     document.querySelector("#container").style.backgroundColor = currentColor;
     return currentColor;
