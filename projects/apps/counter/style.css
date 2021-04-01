@@ -1,24 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 body{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto";
 }
 #container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #89cff0;
-    padding: 30px;
+    background-color: #baddee;
+    padding:4em;
     border-radius: 5px;
     box-shadow: 0 0.25rem 0.5rem rgb(0 0 0 / 25%);
 }
 h1{
-    font-size: 3em;
+    font-size: 4em;
     padding: 0.5em;
+    font-weight: 900;
 }
 h2{
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: 100;
 }
 #controls{
     display: flex;
@@ -38,4 +42,12 @@ a:hover{
 .button{
     padding: 0.5em;
     margin: 0.5em;
+}
+.increase a:hover{
+    background-color: #99FF99;
+    color: #000;
+}
+.decrease a:hover{
+    background-color: #FF6666;
+    color: #000;
 }
